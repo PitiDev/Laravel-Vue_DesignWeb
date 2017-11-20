@@ -1,0 +1,45 @@
+body, h1, h2, h3, h4, p, a{font-family: 'Phetsarath_OT', 'roboto' !important; color: #6b7c93 !important; font-weight: bold;}
+
+
+
+
+
+/*replace bulma*/
+label.label,input.input,.selected-tag,button._btn{font-family: 'Phetsarath_OT', 'roboto' !important}
+.input:focus{border-color: #3ecf8e !important;}
+button.is-primary{background-color: #3ecf8e !important;}
+.card{border-radius: 5px;}
+a.navbar-item:hover{background-color: white !important;}
+@media screen and (max-width: 760px){.hero-body{padding: 1.5rem 0 0.5rem}}
+/*replace bulma*/
+
+
+
+h2._is-start{font-weight: 600; color:#24b47e !important; display: flex; align-items: center;}
+.section-title{display: flex;}
+i.small-fa{font-size: 14px !important; margin-right: 5px; color: rgb(27, 185, 120);}
+._is-end{margin-left: auto;}
+
+._is-end{
+	align-items: center;
+    display: flex;
+    cursor: pointer;
+    background: #ffdd57;
+    padding: 8px 10px 5px;
+    border-radius: 3px;
+}
+.cover_img { position: relative; overflow: hidden; border-radius: 5px 5px 0 0}
+.cover_img img { height: 100%; -o-object-fit: cover; object-fit: cover; position: absolute; top: 0; left: 0; width: 100%;}
+.cover_img:before { display: block; content: ""; width: 100%; padding-top: 65%; }
+i.tel{font-size: 18px !important; line-height: 22px !important; color: #24b47e !important;}
+i.section-icn{font-size: 18px !important; line-height: 28px !important; margin-right: 5px; color: #24b47e !important;}
+
+
+/*slick navigation start here*/
+.slick-slide{outline: none; cursor: pointer;}
+.-prev,.-next{position: absolute; top: 22%; cursor: pointer; opacity: 0.5}
+.-next{right: -33px;}
+.-prev{left: -33px;}
+.fa{font-size: 26px !important;}
+.-prev:hover,.-next:hover {opacity: 1}
+/*slick navigation end here*/
